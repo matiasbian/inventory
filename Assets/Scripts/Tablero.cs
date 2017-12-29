@@ -5,10 +5,11 @@ using UnityEngine;
 public class Tablero : MonoBehaviour {
 	public int lenghtX,lenghtY;
 	public static Vector2Int position;
-	public static int[,] board;
+	public static bool[,] board;
+	public static int headerX, headerY;
 	// Use this for initialization
 	void Start () {
-		board = new int[lenghtX, lenghtY];
+		board = new bool[lenghtX, lenghtY];
 	}
 	
 	// Update is called once per frame
@@ -38,6 +39,7 @@ public class Tablero : MonoBehaviour {
 			Debug.LogError ("out of board");
 		}
 	}
+		
 
 
 	#region auxiliares
@@ -48,3 +50,5 @@ public class Tablero : MonoBehaviour {
 	#endregion}
 
 }
+
+
