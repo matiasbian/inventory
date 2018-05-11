@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory", "Assembly-CSharp.csproj", "{CE9B2838-BAA5-58C9-FABF-B8A8DCBCAB94}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inventory", "Assembly-CSharp.csproj", "{62759CF8-BB12-C4E4-CB7B-1145813D78F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CE9B2838-BAA5-58C9-FABF-B8A8DCBCAB94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE9B2838-BAA5-58C9-FABF-B8A8DCBCAB94}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE9B2838-BAA5-58C9-FABF-B8A8DCBCAB94}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE9B2838-BAA5-58C9-FABF-B8A8DCBCAB94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62759CF8-BB12-C4E4-CB7B-1145813D78F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62759CF8-BB12-C4E4-CB7B-1145813D78F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62759CF8-BB12-C4E4-CB7B-1145813D78F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62759CF8-BB12-C4E4-CB7B-1145813D78F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

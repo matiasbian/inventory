@@ -24,19 +24,24 @@ public class Drawer : MonoBehaviour {
 		grid.constraintCount = Tablero.board.GetLength (0);
 		for (int i = 0; i < Tablero.board.GetLength (1); i++) {
 			drawLine (Tablero.board.GetLength (0));
-		}
-		paintItem (4, 2);
+		}// items de ejemplo
+		Tablero.moveTo (1, 2); //muevo cabezal
+		paintItem (4, 2); //dibujo
+		Tablero.moveTo (0, 0);
+		paintItem (3, 1);
 	}
 
+	void paintItem(int longX, int longY){
+		int offsetY = Tablero.position.y;
+		int offsetX = Tablero.position.x;
 
-	void paintItem(int longX, int longY,int offsetX = 0 , int offsetY = 0){
-		for (int i = offsetY; i < longY; i++) {
+		for (int i = offsetY; i < longY+ offsetY; i++) {
 			paintALine (longX, i, offsetX);
 		}
 	}
 
 	void paintALine(int longX,int posY,int offsetX = 0){
-		for (int i = offsetX; i < longX; i++) {
+		for (int i = offsetX; i < longX + offsetX; i++) {
 			paintACell (i, posY);
 		}
 	}
